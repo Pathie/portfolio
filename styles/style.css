@@ -4,19 +4,44 @@ html {
   font-family: "Albert Sans", sans-serif;
 }
 
-body {
-  width: 800px;
-}
-
 h1 {
-  font-size: 24px;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
 }
 
 p,
 a {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   letter-spacing: 1px;
+}
+
+div {
+  display: flex;
+}
+
+.nav {
+  align-items: baseline;
+  justify-content: space-between;
+  padding-left: 64px;
+  padding-right: 64px;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+.navitems {
+  gap: 16px;
+}
+
+.intro {
+  align-items: end;
+  justify-content: center;
+  padding-top: 24px;
+  gap: 24px;
+}
+
+.intro p {
+  max-width: 700px;
 }
 
 img {
